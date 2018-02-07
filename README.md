@@ -4,7 +4,7 @@
 구글 프로토콜 버퍼는 구글에서 개발하고 오픈소스로 공개한, 직렬화 데이터 구조 입니다. 쉽게 말해서 XML, JSON 등과 같은 데이터를 저장하는 하나의 포맷이라고 합니다. proto3부터 다양한 언어를 지원하고 직렬화 속도가 빠르고 크기도 작습니다. 하나의 파일에 최대 64M까지 지원할 수 있으며, JSON 파일로 변환이 가능합니다. 사용이 간단하고 BSD License 정책으로 100% 무료라고 합니다.
 
 ## 사용 방법
-  1. ProtoBuffers 설치
+  1. Protoc 설치
   [https://github.com/google/protobuf/releases](https://github.com/google/protobuf/releases)
   2. proto 파일 작성
   데이터를 구조화 합니다. 아래 코드는 Protocol Buffer 공식 홈페이지에 있는 예제 코드입니다.
