@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-
 	pb "github.com/JinHyukParkk/protocol_Buffer_test/tutorial"
 	"github.com/gogo/protobuf/proto"
 )
@@ -33,5 +32,4 @@ func Read() {
 		log.Fatalln("Failed to parse address book:", err)
 	}
 	listPeople(os.Stdout, book1)
-
 }
