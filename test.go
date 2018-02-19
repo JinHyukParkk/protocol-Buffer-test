@@ -12,15 +12,12 @@ func main() {
 	// }
 	// fname := os.Args[1]
 
-	// [START unmarshal_proto]
-	// Read the existing address book.
-
 	// #### data 파일 읽기
 	// in, err := ioutil.ReadFile(fname)
 	// if err != nil {
 	// 	log.Fatalln("Error reading file:", err)
 	// }
-	action.Write()
+	// action.Write()
 	action.Read()
 
 }
