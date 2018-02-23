@@ -5,6 +5,8 @@ package vector_tile;
 option csharp_namespace = "Example";
 option optimize_for = LITE_RUNTIME;
 
+import "google/protobuf/any.proto";
+
 message Tile {
 
         // GeomType is described in section 4.3.4 of the specification
@@ -24,6 +26,8 @@ message Tile {
                 uint64 uint_value = 5;
                 sint64 sint_value = 6;
                 bool bool_value = 7;
+
+                extensions 8 to max;
         }
 
         message Feature {
