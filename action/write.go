@@ -80,7 +80,7 @@ func Write() {
 	if err != nil {
 		log.Fatalln("Failed to encode address book:", err)
 	}
-	if err := ioutil.WriteFile("data/test.data", out, 0644); err != nil {
+	if err := ioutil.WriteFile("../data/test.data", out, 0644); err != nil {
 		log.Fatalln("Failed to write address book:", err)
 	}
 }

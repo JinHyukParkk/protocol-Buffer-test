@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+
 	pb "github.com/JinHyukParkk/protocol_Buffer_test/tutorial"
 	"github.com/gogo/protobuf/proto"
 )
@@ -17,7 +18,7 @@ func listPeople(w io.Writer, book *pb.AddressBook) {
 }
 
 func Read() {
-	fname := "data/test.data"
+	fname := "../data/test.data"
 	in, err := ioutil.ReadFile(fname)
 	if err != nil {
 		if os.IsNotExist(err) {
